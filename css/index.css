@@ -1,0 +1,69 @@
+body{
+    margin-top: 0px;
+    text-aligin:center;
+}
+
+#head_index{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    background: #15b5e9 ;
+    float: left;
+}
+
+#head_img_index{
+    margin-top: 50px;
+}
+
+#myname{
+    text-align: center;
+    font-size: 25px;
+    font-family:"宋体";
+    font-weight: bold;
+    color: white;
+}
+#zuo-you-ming{
+	color: white;
+}
+
+#xuan-xiang-img{
+	width: 400px;
+	margin-top: 30px;
+	text-align: center;
+	float: left;
+}
+
+.tian{
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+}
+.img-xuan-xiang{
+	width: 60px;
+	height: 60px;
+}
+
+#xuan-xiang-name{
+	width: 400px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+
+.song{
+	margin-left: 50px;
+	text-align: center;
+	float: left;
+}
+.bt-xuan-xiang-name{
+	width: 60px;
+	font-size: 17px;
+	background-color: transparent;
+	border: none;
+}
+.content-index{
+    background: rgba(234, 223, 255, 0);
+    margin-left: 1px;
+    width: 600px
+    float: left;
+}
