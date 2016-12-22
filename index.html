@@ -1,18 +1,37 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>田松涛主页</title>
+    <title>爱你-宝贝主页</title>
     <link rel="stylesheet" type="text/css" href="css/index.css"></link>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
-<div>
+<div style="width: 1300px">
 <div id="head_index">
-
     <img id="head_img_index" src="img/index-haed.png" />
-    <p id="head_title_p">爱你，宝贝</p>
-
+    <p id="myname">爱你-宝贝</p>
+    <p id="zuo-you-ming">努力，为你，为我，为家人</p>
+	<div id="xuan-xiang-img">
+		<div class="tian"><img class="img-xuan-xiang" src="img/jianli.png"  onclick="openJianli();"/></div>
+		<div class="tian"><img class="img-xuan-xiang" src="img/github.png" onclick="openGithub();" /></div>
+		<div class="tian"><img class="img-xuan-xiang"  src="img/jianli.png" onclick="openBoke();"/></div>
+	</div>
+	<div id="xuan-xiang-name">
+		<div class="song"><button class="bt-xuan-xiang-name" value="简历" onclick="openJianli();">简历</button></div>
+		<div class="song"><button class="bt-xuan-xiang-name" value="GitHub" onclick="openGithub();">GitHub</button></div>
+		<div class="song"><button class="bt-xuan-xiang-name" value="博客" onclick="openBoke();">博客</button></div>
+	</div>
 </div>
-<div id="content-index">afsd</div>
+<!--这里显示用户想了解的内容-->
+<div class="content-index" style="display: block;">
+	<iframe  style="width: 890px;border: none;" src="html/jianli.html"></iframe>
+</div>
+<div class="content-index" style="display: none;">
+	<iframe  style="width: 890px;border: none; " src="html/github.html"></iframe>
+</div>
+<div class="content-index" style="display: none;">
+	<iframe style="width: 890px;border: none;" src="html/boke.html"></iframe>
+</div>
 </div>
 </body>
 </html>
