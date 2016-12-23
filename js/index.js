@@ -11,5 +11,5 @@ function openGithub (){
 }
 
 function openBoke (){
-    window.location.href='html/boke.html';
+    window.location.href='http://blog.csdn.net/tst116';
 }
