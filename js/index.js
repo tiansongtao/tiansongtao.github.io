@@ -11,5 +11,5 @@ function openGithub (){
 }
 
 function openBoke (){
-    window.location.href='html/jianli.html';
+    window.location.href='html/boke.html';
 }
